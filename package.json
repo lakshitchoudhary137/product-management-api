@@ -1,13 +1,22 @@
+
 {
-  "name": "backend-tutorial",
+  "name": "product-management-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "RESTful Product Management API using Node.js, Express and MongoDB",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "mongoose",
+    "rest-api",
+    "crud"
+  ],
+  "author": "Lakshit Choudhary",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
